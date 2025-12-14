@@ -1,0 +1,51 @@
+```css
+section {
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #121212;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 15px rgba(0,0,0,0.6);
+  color: white;
+}
+
+section h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #ff4081;
+}
+
+section a {
+  display: inline-block;
+  padding: 12px 25px;
+  margin: 10px 0;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+section a:first-of-type {
+  background-color: #FF0000;
+  color: white;
+}
+
+section a:first-of-type:hover {
+  background-color: #cc0000;
+}
+
+section a:last-of-type {
+  background-color: #000000;
+  color: #25F4EE;
+}
+
+section a:last-of-type:hover {
+  background-color: #222222;
+}
+```

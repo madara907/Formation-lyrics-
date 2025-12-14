@@ -1,0 +1,149 @@
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formation Lyrics - Inscription</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #121212;
+            color: #eee;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        header {
+            background: #1f1f1f;
+            width: 100%;
+            padding: 1rem 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.7);
+        }
+        header h1 {
+            margin: 0;
+            color: #ff3c00;
+            font-size: 2.5rem;
+            letter-spacing: 3px;
+        }
+        main {
+            max-width: 600px;
+            background: #1e1e1e;
+            border-radius: 10px;
+            padding: 2rem;
+            margin: 2rem;
+          box-shadow: 0 0 15px #ff3c00;
+            text-align: center;
+        }
+        main h2 {
+            margin-top: 0;
+            color: #ff6f31;
+        }
+        p {
+            font-size: 1.1rem;
+            line-height: 1.5;
+        }
+        .price {
+            font-weight: bold;
+            font-size: 1.5rem;
+            color: #ff3c00;
+            margin: 1rem 0;
+        }
+        .btn {
+            display: inline-block;
+            background: #ff3c00;
+            color: #fff;
+            padding: 0.75rem 1.5rem;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+            cursor: pointer;
+            margin-bottom: 2rem;
+        }
+        .btn:hover {
+            background: #e23900;
+        }
+        form {
+            background: #292929;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: left;
+        }
+        label {
+            display: block;
+            margin-bottom: 0.4rem;
+            font-weight: bold;
+            color: #ff6f31;
+        }
+        input[type="text"], input[type="email"], input[type="tel"] {
+            width: 100%;
+            padding: 0.6rem;
+            margin-bottom: 1.2rem;
+            border: none;
+          border-radius: 4px;
+            font-size: 1rem;
+        }
+        input[type="submit"] {
+            background: #ff3c00;
+            border: none;
+            padding: 0.75rem 2rem;
+            color: white;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            display: block;
+            margin: 0 auto;
+        }
+        input[type="submit"]:hover {
+            background: #e23900;
+        }
+        footer {
+            margin-top: auto;
+            padding: 1rem 0;
+            color: #777;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FORMATION LYRICS</h1>
+    </header>
+
+    <main>
+        <h2>Deviens créateur de vidéos Lyrics en 30 jours !</h2>
+        <p>
+            Tu veux apprendre à créer des vidéos lyrics stylées comme celles que tu vois sur TikTok, Instagram ou YouTube ?<br/>
+            Cette formation 100% en ligne est faite pour toi.<br/>
+            Pas besoin d’expérience, on commence de zéro !
+        </p>
+        <p class="price">Prix : 30 000 FCFA - Durée : 1 mois</p>
+        <a href="#inscription" class="btn">Je m'inscris maintenant</a>
+
+        <form id="inscription" action="#" method="POST">
+          <label for="nom">Nom complet</label>
+            <input type="text" id="nom" name="nom" required />
+
+            <label for="email">Adresse e-mail</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="tel">Numéro de téléphone</label>
+            <input type="tel" id="tel" name="tel" required />
+
+            <input type="submit" value="Envoyer ma demande" />
+        </form>
+    </main>
+
+    <footer>
+        &copy; 2025 Formation Lyrics - Tous droits réservés
+    </footer>
+</body>
+</html>
+```
